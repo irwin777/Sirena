@@ -22,7 +22,7 @@ import (
 
 func main() {
 	key := flag.String("key", "", "api key")
-	obl := flag.Int("oblast", 1, "Oblast")
+	obl := flag.Int("oblast", 25, "Oblast")
 	trevoga := flag.String("trevoga", "Sub.mp3", "File name alarm on")
 	vidbiy := flag.String("vidbiy", "Sub.mp3", "File name alarm off")
 	flag.Parse()
